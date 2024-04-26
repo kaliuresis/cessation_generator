@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cessation Cipher Generator</title>
+  <link rel="icon"
+        type="image/png"
+        href="cessation.png">
+  <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Text to cessation cipher generator">
+  <meta name="author" content="Kaliuresis">
+  <script src="generator.js"></script>
+</head>
+<body onload="update_message()">
+  <form onsubmit="return update_message()">
+    <input type="text" value="SEEKING TRUTH, THE WISE FIND INSTEAD ITS PROFOUND ABSENCE" id="message">
+    <label for="width">width:</label><input type="number" value=172 id="width" name="width">
+    <label for="scale">scale:</label><input type="number" value=4 id="scale" name="scale">
+    <button type="submit" id="generate_button">Generate</button>
+  </form>
+  <img id="generated_image"/>
+</body>
+</html>

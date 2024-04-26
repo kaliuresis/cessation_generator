@@ -1,0 +1,26 @@
+body {
+    background-color: #CCC;
+}
+
+#message {
+    width:calc(100vw - 2em);
+}
+
+input {
+    margin-bottom: 1em;
+    margin-right: 1em;
+}
+
+#width {
+    width: 5em;
+}
+
+#scale {
+    width: 3em;
+}
+
+#generated_image {
+ image-rendering: pixelated;
+ object-fit: contain;
+ margin-left: 2em;
+}
